@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class InputVar { public static void main (String[] args){
+public class InputVar {
+    public static void main (String[] args){
         Scanner scanner = new Scanner (System.in);
 
         System.out.print("Enter your name: ");
@@ -22,4 +23,4 @@ public class InputVar { public static void main (String[] args){
         System.out.println( "Hello " + name + "\n" + "You are "+ age + " years old.\n" + "Your GPA is " + GPA + "\n" + "Student status: " + isStudent);
         scanner.close();
     }
-    }
+}
