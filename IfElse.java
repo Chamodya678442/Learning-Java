@@ -36,5 +36,6 @@ public class IfElse {
             System.out.println("You are a child ");
 
         }
+        scanner.close();
     }
 }
